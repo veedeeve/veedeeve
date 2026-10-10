@@ -68,7 +68,25 @@ My interest in biotechnology started with a fascination for how rapidly the medi
  ---
  
 ## Featured Projects
- 
+
+## Reproducing Published Figures
+
+Collaborative project to reproduce figures from published manuscripts using their public data. The goal is to learn current analysis tools by rebuilding real results and checking the output against the published figures.
+
+**Currently reproducing:** Figure 5 of Tsukui et al. (*Nature Communications*, 2020), which characterizes collagen-producing fibroblasts in normal, IPF, and scleroderma human lung (GEO: GSE132771)
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bioinformaticsfigurereproducibility/repro-collagen-prod-cell-lung)
+
+### Structural Variant Benchmarking Across Human Reference Builds (BCM Structural Variant Hackathon - [Dr. Sedlazeck Website](https://fritzsedlazeck.github.io/blog/2026/hackathon-2026/))
+
+Collaborative benchmark comparing structural variant (SV) discovery for HG002 long reads across seven human reference builds (hg15 through hs1), using two aligners and evaluating calls against the GIAB truth set.
+
+**My contributions**  
+- Developed a read-name-based approach to match SV calls across builds using shared supporting reads, avoiding coordinate liftover
+- Maintain and organized the project's GitHub documentation
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/collaborativebioinformatics/benchmark_reference_genome_assembly)
+
 ### 🌸 RNA-Seq Differential Expression — NUDT21 Knockdown
  
 End-to-end RNA-seq analysis pipeline for NUDT21 knockdown including gene set enrichment analysis.
